@@ -328,13 +328,11 @@ button {
   cursor: pointer;
 }
 
-/* Permite o cargo quebrar em mais de uma linha */
 .titulo_aula.quebra {
   white-space: normal;
   overflow: visible;
 }
 
-/* Barra de status no topo do card (mesmo padrão da pílula "PROVA") */
 .pill_topo {
   background-color: var(--prova);
   padding: 7px 15px;
@@ -358,7 +356,6 @@ button {
   border-radius: 500px;
 }
 
-/* Botão azul (mesmo padrão do .tipo) */
 .btn_vaga {
   padding: 5px 8px;
   border: 2px solid #007bff;
@@ -383,7 +380,6 @@ button {
   pointer-events: none;
 }
 
-/* Listas de filtro (Área e Modalidade) */
 .lista_opcoes {
   border: 2px solid var(--frequencia);
   border-radius: 10px;
@@ -422,7 +418,6 @@ button {
   cursor: pointer;
 }
 
-/* Detalhe da vaga */
 .lista_det {
   font-family: "Arimo", sans-serif;
   font-size: 13px;
@@ -432,7 +427,6 @@ button {
   margin: 0 5px 10px 5px;
 }
 
-/* Formulário de candidatura */
 .campo {
   display: block;
   margin: 10px 5px 0 5px;
@@ -488,7 +482,6 @@ button {
   white-space: pre-line;
 }
 
-/* Confirmação do envio: barra fixa na parte de baixo da tela */
 .barra_inferior {
   position: fixed;
   left: 0;
@@ -522,12 +515,10 @@ button {
   color: green;
 }
 
-/* Espaço para a barra fixa não cobrir o conteúdo */
 #tela_candidatura.com_barra_inferior {
   padding-bottom: 240px;
 }
 
-/* Formulário depois do envio */
 .travado .arquivo .material-symbols-outlined {
   display: none;
 }
@@ -538,7 +529,6 @@ button {
   pointer-events: none;
 }
 
-/* Card do Mercado de Trabalho na tela inicial: só com fontes maiores */
 .mercado_card .titulo_aula {
   font-size: 18px;
 }
