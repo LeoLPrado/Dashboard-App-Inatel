@@ -1,0 +1,560 @@
+[
+  {
+    "id": 1,
+    "cargo": "Estagiário em Desenvolvimento Web",
+    "empresa": "Nexa Tecnologia",
+    "local": "Santa Rita do Sapucaí - MG",
+    "modalidade": "Híbrido",
+    "nivel": "Estágio",
+    "area": "Desenvolvimento web",
+    "publicadaEm": "2026-10-28",
+    "prazo": "2026-11-27",
+    "descricao": "Atuação junto ao time de produto no desenvolvimento e na manutenção de sites e sistemas web de clientes, com acompanhamento de desenvolvedores seniores.",
+    "responsabilidades": [
+      "Desenvolver e corrigir telas e funcionalidades em HTML, CSS e JavaScript",
+      "Participar de code reviews e reuniões diárias do time",
+      "Documentar o que for desenvolvido e apoiar nos testes das entregas"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação ou áreas afins",
+      "Conhecimento em HTML, CSS e JavaScript",
+      "Noções de Git e GitHub",
+      "Boa comunicação e vontade de aprender",
+      "Diferencial: noções de React ou Node.js"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 2,
+    "cargo": "Desenvolvedor(a) Web Júnior (PHP e Laravel)",
+    "empresa": "Vértice Sistemas",
+    "local": "Remoto",
+    "modalidade": "Remoto",
+    "nivel": "Júnior",
+    "area": "Desenvolvimento web",
+    "publicadaEm": "2026-10-26",
+    "prazo": "2026-12-04",
+    "descricao": "Desenvolvimento de sistemas de gestão web para clientes do varejo e de serviços, em time remoto e com metodologia ágil.",
+    "responsabilidades": [
+      "Criar e manter funcionalidades em PHP com Laravel",
+      "Desenvolver APIs REST e integrações com serviços de terceiros",
+      "Escrever testes e corrigir bugs reportados pelo suporte"
+    ],
+    "requisitos": [
+      "Experiência com PHP e Laravel (projetos pessoais ou acadêmicos contam)",
+      "Conhecimento em MySQL e modelagem de dados",
+      "Git e versionamento em equipe",
+      "Noções de HTML, CSS e JavaScript",
+      "Diferencial: Docker e testes automatizados"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 3,
+    "cargo": "Estagiário em Back end (Java e Spring Boot)",
+    "empresa": "Alvorada Software",
+    "local": "Pouso Alegre - MG",
+    "modalidade": "Presencial",
+    "nivel": "Estágio",
+    "area": "Back end",
+    "publicadaEm": "2026-10-27",
+    "prazo": "2026-11-20",
+    "descricao": "Apoio ao time de back end na evolução de APIs e microsserviços de um sistema de gestão financeira.",
+    "responsabilidades": [
+      "Implementar endpoints REST com Java e Spring Boot",
+      "Escrever testes unitários com JUnit",
+      "Apoiar na análise e na correção de bugs em produção",
+      "Participar do planejamento das sprints"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação ou áreas afins",
+      "Conhecimento em Java e orientação a objetos",
+      "Noções de SQL e bancos relacionais",
+      "Conhecimento básico de Git",
+      "Diferencial: Spring Boot e Docker"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 4,
+    "cargo": "Desenvolvedor(a) Back end Júnior (Node.js)",
+    "empresa": "Fluxo Pay",
+    "local": "Remoto",
+    "modalidade": "Remoto",
+    "nivel": "Júnior",
+    "area": "Back end",
+    "publicadaEm": "2026-10-24",
+    "prazo": "2026-11-30",
+    "descricao": "Desenvolvimento de serviços de pagamentos e conciliação em uma fintech em crescimento, com foco em qualidade e segurança.",
+    "responsabilidades": [
+      "Desenvolver e manter APIs em Node.js com TypeScript",
+      "Modelar tabelas e consultas em PostgreSQL",
+      "Monitorar logs e métricas dos serviços",
+      "Definir contratos de API em conjunto com o time de front end"
+    ],
+    "requisitos": [
+      "Experiência com Node.js e TypeScript",
+      "Conhecimento em PostgreSQL",
+      "Entendimento de APIs REST e autenticação (JWT)",
+      "Git e fluxo de pull requests",
+      "Diferencial: mensageria (RabbitMQ ou Kafka)"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 5,
+    "cargo": "Estagiário em Front end (React)",
+    "empresa": "Pixel & Code",
+    "local": "Campinas - SP",
+    "modalidade": "Híbrido",
+    "nivel": "Estágio",
+    "area": "Front end",
+    "publicadaEm": "2026-10-28",
+    "prazo": "2026-12-01",
+    "descricao": "Construção de interfaces responsivas para aplicativos web de clientes de diversos segmentos, junto ao time de design.",
+    "responsabilidades": [
+      "Implementar telas a partir de protótipos do Figma",
+      "Criar componentes reutilizáveis em React",
+      "Garantir responsividade e acessibilidade das telas",
+      "Corrigir bugs e ajustar detalhes visuais"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação ou áreas afins",
+      "Conhecimento em HTML, CSS e JavaScript",
+      "Noções de React",
+      "Noções de Git",
+      "Diferencial: TypeScript e acessibilidade web (WCAG)"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 6,
+    "cargo": "Desenvolvedor(a) Front end Júnior (Vue.js)",
+    "empresa": "Serra Verde Tech",
+    "local": "Remoto",
+    "modalidade": "Remoto",
+    "nivel": "Júnior",
+    "area": "Front end",
+    "publicadaEm": "2026-10-22",
+    "prazo": "2026-11-25",
+    "descricao": "Evolução de um painel web de gestão logística utilizado por empresas de transporte em todo o país.",
+    "responsabilidades": [
+      "Desenvolver novas telas e melhorias com Vue.js e TypeScript",
+      "Consumir APIs REST e tratar estados de carregamento e erro",
+      "Escrever testes de componentes",
+      "Participar de revisões de código e rituais ágeis"
+    ],
+    "requisitos": [
+      "Experiência com Vue.js (ou React) e TypeScript",
+      "Domínio de HTML, CSS e JavaScript moderno",
+      "Consumo de APIs REST",
+      "Git e fluxo de pull requests",
+      "Diferencial: testes com Vitest ou Jest"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 7,
+    "cargo": "Estagiário em Análise de Dados (Python e SQL)",
+    "empresa": "DataNorte Analytics",
+    "local": "Belo Horizonte - MG",
+    "modalidade": "Híbrido",
+    "nivel": "Estágio",
+    "area": "Dados",
+    "publicadaEm": "2026-10-27",
+    "prazo": "2026-11-30",
+    "descricao": "Apoio à equipe de dados na coleta, no tratamento e na visualização de informações para as áreas de negócio.",
+    "responsabilidades": [
+      "Extrair e tratar dados com SQL e Python",
+      "Construir dashboards no Power BI",
+      "Validar a qualidade dos dados e documentar as análises",
+      "Apoiar a criação de relatórios recorrentes"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação, Estatística ou áreas afins",
+      "Conhecimento em SQL",
+      "Noções de Python (pandas)",
+      "Noções de Power BI ou outra ferramenta de visualização",
+      "Organização e atenção aos detalhes"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 8,
+    "cargo": "Engenheiro(a) de Dados Júnior",
+    "empresa": "Orbita Digital",
+    "local": "São Paulo - SP",
+    "modalidade": "Híbrido",
+    "nivel": "Júnior",
+    "area": "Dados",
+    "publicadaEm": "2026-10-23",
+    "prazo": "2026-12-10",
+    "descricao": "Construção e manutenção de pipelines de dados que alimentam o data warehouse e os modelos analíticos da empresa.",
+    "responsabilidades": [
+      "Desenvolver pipelines de ingestão e transformação com Python e Spark",
+      "Orquestrar rotinas com Airflow",
+      "Modelar as camadas do data warehouse (bronze, silver e gold)",
+      "Monitorar a qualidade e o custo dos pipelines"
+    ],
+    "requisitos": [
+      "Python e SQL intermediário ou avançado",
+      "Noções de Spark ou Databricks",
+      "Conhecimento em modelagem dimensional",
+      "Git e boas práticas de código",
+      "Diferencial: Airflow e cloud (AWS, Azure ou GCP)"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 9,
+    "cargo": "Estagiário em DevOps",
+    "empresa": "Cobalto DevOps",
+    "local": "Remoto",
+    "modalidade": "Remoto",
+    "nivel": "Estágio",
+    "area": "DevOps",
+    "publicadaEm": "2026-10-25",
+    "prazo": "2026-11-28",
+    "descricao": "Apoio ao time de infraestrutura na automação de deploys e na manutenção de pipelines de integração contínua.",
+    "responsabilidades": [
+      "Manter pipelines de CI/CD no GitHub Actions",
+      "Apoiar a conteinerização de aplicações com Docker",
+      "Acompanhar monitoramento e alertas dos ambientes",
+      "Escrever scripts de automação em Bash e Python"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação, Sistemas de Informação ou áreas afins",
+      "Conhecimento básico de Linux e linha de comando",
+      "Noções de Docker e Git",
+      "Noções de redes (HTTP e DNS)",
+      "Diferencial: Kubernetes e Terraform"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 10,
+    "cargo": "Analista de QA Júnior (testes automatizados)",
+    "empresa": "Quartzo QA",
+    "local": "Itajubá - MG",
+    "modalidade": "Híbrido",
+    "nivel": "Júnior",
+    "area": "QA",
+    "publicadaEm": "2026-10-21",
+    "prazo": "2026-11-18",
+    "descricao": "Garantia da qualidade de sistemas web e mobile por meio de testes manuais e automatizados.",
+    "responsabilidades": [
+      "Elaborar e executar planos e casos de teste",
+      "Automatizar testes de interface e de API",
+      "Registrar e acompanhar defeitos no Jira",
+      "Participar da definição dos critérios de aceite"
+    ],
+    "requisitos": [
+      "Experiência com testes manuais e conhecimento do ciclo de vida de software",
+      "Conhecimento em Cypress, Selenium ou Playwright",
+      "Testes de API com Postman",
+      "Noções de SQL",
+      "Diferencial: BDD com Cucumber e integração com CI"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 11,
+    "cargo": "Estagiário em Desenvolvimento Mobile (Flutter)",
+    "empresa": "Trilha Mobile",
+    "local": "Remoto",
+    "modalidade": "Remoto",
+    "nivel": "Estágio",
+    "area": "Mobile",
+    "publicadaEm": "2026-10-26",
+    "prazo": "2026-12-05",
+    "descricao": "Desenvolvimento de aplicativos Android e iOS para clientes de saúde e educação, em equipe enxuta.",
+    "responsabilidades": [
+      "Implementar telas e fluxos em Flutter",
+      "Integrar o aplicativo com APIs REST",
+      "Apoiar a publicação nas lojas Google Play e App Store",
+      "Corrigir bugs e melhorar o desempenho do app"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação ou áreas afins",
+      "Conhecimento em Dart e Flutter (ou outra tecnologia mobile)",
+      "Noções de consumo de APIs REST",
+      "Noções de Git",
+      "Diferencial: gerenciamento de estado (Provider, Bloc ou Riverpod)"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 12,
+    "cargo": "Estagiário em UX/UI Design",
+    "empresa": "Prisma UX Studio",
+    "local": "Santa Rita do Sapucaí - MG",
+    "modalidade": "Presencial",
+    "nivel": "Estágio",
+    "area": "UX/UI Design",
+    "publicadaEm": "2026-10-20",
+    "prazo": "2026-11-24",
+    "descricao": "Apoio à criação de interfaces e protótipos para aplicativos e sites, em contato direto com clientes e desenvolvedores.",
+    "responsabilidades": [
+      "Criar wireframes e protótipos no Figma",
+      "Apoiar pesquisas e testes de usabilidade com usuários",
+      "Montar e manter bibliotecas de componentes do design system",
+      "Acompanhar a implementação das telas pelos desenvolvedores"
+    ],
+    "requisitos": [
+      "Cursando Design, Engenharia de Software, Ciência da Computação ou áreas afins",
+      "Conhecimento em Figma",
+      "Noções de usabilidade e Interação Humano-Computador",
+      "Portfólio com projetos acadêmicos ou pessoais",
+      "Diferencial: noções de HTML e CSS"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 13,
+    "cargo": "Analista de Segurança da Informação Júnior (SOC)",
+    "empresa": "Lumen Security",
+    "local": "São Paulo - SP",
+    "modalidade": "Híbrido",
+    "nivel": "Júnior",
+    "area": "Segurança da informação",
+    "publicadaEm": "2026-10-19",
+    "prazo": "2026-12-12",
+    "descricao": "Monitoramento e resposta a incidentes de segurança em um centro de operações (SOC) que atende empresas de diversos setores.",
+    "responsabilidades": [
+      "Monitorar alertas no SIEM e classificar incidentes",
+      "Investigar eventos suspeitos e registrar evidências",
+      "Apoiar a resposta a incidentes e a elaboração de relatórios",
+      "Contribuir na criação de regras de detecção"
+    ],
+    "requisitos": [
+      "Conhecimento em redes (TCP/IP) e sistemas Linux e Windows",
+      "Noções de SIEM, firewall e EDR",
+      "Conhecimento dos principais ataques (phishing, malware e força bruta)",
+      "Inglês técnico para leitura",
+      "Diferencial: certificação Security+ ou CEH"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 14,
+    "cargo": "Estagiário em Cloud (AWS)",
+    "empresa": "CloudBridge Brasil",
+    "local": "Remoto",
+    "modalidade": "Remoto",
+    "nivel": "Estágio",
+    "area": "Cloud",
+    "publicadaEm": "2026-10-24",
+    "prazo": "2026-12-08",
+    "descricao": "Apoio na construção e na operação de ambientes em nuvem para clientes que estão migrando suas aplicações para a AWS.",
+    "responsabilidades": [
+      "Apoiar a criação de recursos na AWS (EC2, S3, RDS e IAM)",
+      "Escrever infraestrutura como código com Terraform",
+      "Acompanhar custos e monitoramento dos ambientes",
+      "Documentar arquiteturas e procedimentos"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação, Sistemas de Informação ou áreas afins",
+      "Conhecimento básico de computação em nuvem",
+      "Noções de Linux e redes",
+      "Inglês para leitura de documentação",
+      "Diferencial: certificação AWS Cloud Practitioner"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 15,
+    "cargo": "Estagiário em Inteligência Artificial",
+    "empresa": "Sinapse Labs",
+    "local": "São José dos Campos - SP",
+    "modalidade": "Híbrido",
+    "nivel": "Estágio",
+    "area": "Inteligência artificial",
+    "publicadaEm": "2026-10-28",
+    "prazo": "2026-12-15",
+    "descricao": "Participação em projetos de machine learning e IA generativa aplicados a atendimento e à análise de documentos.",
+    "responsabilidades": [
+      "Preparar e limpar bases de dados para treinamento",
+      "Treinar e avaliar modelos de machine learning",
+      "Apoiar a construção de soluções com LLMs e busca semântica (RAG)",
+      "Documentar experimentos e resultados"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação, Estatística ou áreas afins",
+      "Python (pandas e scikit-learn)",
+      "Noções de estatística e aprendizado de máquina",
+      "Noções de Git",
+      "Diferencial: PyTorch ou TensorFlow e uso de APIs de LLMs"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 16,
+    "cargo": "Estagiário em Sistemas Embarcados e IoT",
+    "empresa": "Atlas Embarcados",
+    "local": "Santa Rita do Sapucaí - MG",
+    "modalidade": "Presencial",
+    "nivel": "Estágio",
+    "area": "Embarcados e IoT",
+    "publicadaEm": "2026-10-18",
+    "prazo": "2026-11-22",
+    "descricao": "Desenvolvimento de firmware e protótipos de dispositivos IoT para monitoramento industrial e agrícola.",
+    "responsabilidades": [
+      "Programar microcontroladores (ESP32 e STM32) em C e C++",
+      "Integrar sensores e módulos de comunicação (Wi-Fi, LoRa e MQTT)",
+      "Montar e testar protótipos em bancada",
+      "Documentar esquemas e resultados de teste"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Computação, Elétrica, Software ou áreas afins",
+      "Programação em C ou C++",
+      "Noções de eletrônica digital e microcontroladores",
+      "Noções de protocolos de comunicação (UART, I2C e SPI)",
+      "Diferencial: MQTT e Git"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 17,
+    "cargo": "Estagiário em Redes e Telecomunicações",
+    "empresa": "Radar Telecom",
+    "local": "Campinas - SP",
+    "modalidade": "Presencial",
+    "nivel": "Estágio",
+    "area": "Redes e telecomunicações",
+    "publicadaEm": "2026-10-23",
+    "prazo": "2026-11-26",
+    "descricao": "Apoio à equipe técnica na operação, no monitoramento e na expansão de redes de telecomunicações de provedores regionais.",
+    "responsabilidades": [
+      "Acompanhar o monitoramento da rede e abrir chamados",
+      "Apoiar a configuração de roteadores e switches",
+      "Documentar a topologia e atualizar inventários",
+      "Auxiliar em testes de enlaces e de fibra óptica"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Telecomunicações, Computação, Elétrica ou áreas afins",
+      "Conhecimento em redes (modelo OSI, TCP/IP e VLAN)",
+      "Noções de roteamento (OSPF e BGP)",
+      "Familiaridade com Linux",
+      "Diferencial: CCNA"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 18,
+    "cargo": "Analista de Suporte de TI Júnior",
+    "empresa": "TeleLink Soluções",
+    "local": "Pouso Alegre - MG",
+    "modalidade": "Presencial",
+    "nivel": "Júnior",
+    "area": "Suporte de TI",
+    "publicadaEm": "2026-10-15",
+    "prazo": "2026-11-16",
+    "descricao": "Atendimento aos colaboradores e manutenção do parque de computadores e dos serviços de TI da empresa.",
+    "responsabilidades": [
+      "Atender chamados de 1º e 2º nível pelo sistema de service desk",
+      "Instalar e configurar computadores, impressoras e softwares",
+      "Gerenciar contas e permissões no Microsoft 365 e no Active Directory",
+      "Manter o inventário de equipamentos atualizado"
+    ],
+    "requisitos": [
+      "Experiência com suporte técnico (estágio ou projetos contam)",
+      "Conhecimento em Windows, Linux e redes locais",
+      "Noções de Active Directory e Microsoft 365",
+      "Boa comunicação e paciência no atendimento",
+      "Diferencial: ITIL Foundation"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 19,
+    "cargo": "Estagiário em Banco de Dados (DBA)",
+    "empresa": "Mantiqueira Soluções Digitais",
+    "local": "Extrema - MG",
+    "modalidade": "Híbrido",
+    "nivel": "Estágio",
+    "area": "Banco de dados",
+    "publicadaEm": "2026-10-22",
+    "prazo": "2026-12-02",
+    "descricao": "Apoio ao time de banco de dados na administração, na otimização e no backup de bancos relacionais de sistemas críticos.",
+    "responsabilidades": [
+      "Acompanhar a rotina de backups e a restauração de bancos",
+      "Analisar e otimizar consultas lentas",
+      "Apoiar a criação de índices, views e procedures",
+      "Monitorar o desempenho e o espaço dos servidores"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Ciência da Computação, Sistemas de Informação ou áreas afins",
+      "Conhecimento sólido em SQL",
+      "Noções de PostgreSQL ou SQL Server",
+      "Noções de modelagem relacional e normalização",
+      "Diferencial: Linux e scripts em Bash"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  },
+  {
+    "id": 20,
+    "cargo": "Estagiário em Gestão de Produtos e Projetos Ágeis",
+    "empresa": "Vitória Gestão Ágil",
+    "local": "Belo Horizonte - MG",
+    "modalidade": "Híbrido",
+    "nivel": "Estágio",
+    "area": "Gestão de produtos e projetos",
+    "publicadaEm": "2026-10-27",
+    "prazo": "2026-12-06",
+    "descricao": "Apoio na organização de projetos de software, do levantamento de requisitos ao acompanhamento das entregas.",
+    "responsabilidades": [
+      "Apoiar o levantamento de requisitos e a escrita de histórias de usuário",
+      "Manter o backlog e acompanhar as sprints no Jira",
+      "Organizar cerimônias ágeis (planning, daily e retrospectiva)",
+      "Montar relatórios de progresso para clientes e gestores"
+    ],
+    "requisitos": [
+      "Cursando Engenharia de Software, Administração, Engenharia de Produção ou áreas afins",
+      "Noções de Scrum e Kanban",
+      "Boa comunicação oral e escrita",
+      "Organização e visão de prazos",
+      "Diferencial: Jira e noções de métricas de produto"
+    ],
+    "candidatada": false,
+    "dataCandidatura": null,
+    "curriculo": null
+  }
+]

@@ -1,0 +1,552 @@
+:root {
+  --cor-click: #126ae2; /* Click */
+  --cor-sombra: #0a599b; /* Azul Escuro */
+  --cor-text: black; /* Preto */
+  --cor-back1: #edf2f4; /* Azul claro */
+  --cor-back2: #6a937a; /* Verde Escuro */
+  
+  --md-sys-color-primary: #126ae2;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #edf2f4;
+  --md-sys-color-on-primary-container: #002020;
+  
+  --frequencia: #126ae2;
+  --nota: #126ae2;
+  --prova: #126ae2;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--cor-back1);
+  font-family: "Arimo", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 30px; 
+}
+
+#menu {
+  cursor: pointer;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+.svg_logo {
+  width: 80px;
+}
+
+.path_logo {
+  fill: var(--cor-click);
+}
+
+main {
+  padding: 10px;
+}
+
+#mensagens {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 15px;
+}
+
+#user_name {
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+.mns_box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mns {
+  line-height: 1.4;
+}
+
+.material-symbols-outlined {
+  color: var(--cor-click);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.icoG {
+  font-size: 30px;
+}
+
+.icoP {
+  font-size: 18px;
+}
+
+.font {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--cor-text)
+}
+
+#menu_aba {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 1;
+  display: none;
+  border-radius: 10px;
+}
+
+#menu_bot {
+  position: relative;
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14pt;
+  color: var(--cor-click);
+  transition: 0.5s;
+}
+
+h3 {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--cor-text);
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+p {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  color: var(--cor-text);
+  line-height: 1.5;
+  orphans: 3;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    min-width: 100%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info {
+    padding: 10px
+}
+
+button {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#prevBtn { left: 10px; }
+#nextBtn { right: 10px; }
+
+.titulo_aula {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--cor-text);
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.p_lable {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 11px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tipo-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.tipo_res {
+  padding: 5px 8px;
+  border: 2px solid #007bff;
+  border-radius: 500px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+  background-color: #28a745;
+}
+
+.tipo {
+  padding: 5px 8px;
+  border: 2px solid #007bff;
+  border-radius: 500px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+  background-color: var(--frequencia);
+}
+
+.tipo:hover {
+  background-color: #28a745;
+}
+
+.tipo.selected {
+  background-color: #28a745;
+  color: white;
+}
+
+#armarioNumero {
+  display: none;
+  margin: 20px auto 10px;
+  padding: 15px;
+  border-radius: 500px;
+  background-color: var(--frequencia);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: fit-content;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.4s ease;
+}
+
+#resultado {
+  margin-top: 15px;
+  white-space: pre-line;
+}
+
+/* =====================================================
+   MERCADO DE TRABALHO
+   Mesmos padrões do projeto: cards brancos (.container), fonte Arimo,
+   textos 11px / títulos 15px, pílulas com border-radius 500px e cores
+   vindas das variáveis (:root).
+   ===================================================== */
+
+.topo_tela {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 20px 0 20px;
+}
+
+.voltar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titulo_tela {
+  font-family: "Arimo", sans-serif;
+  font-size: 17pt;
+  font-weight: bold;
+  color: var(--cor-text);
+}
+
+.card_vaga {
+  cursor: pointer;
+}
+
+/* Permite o cargo quebrar em mais de uma linha */
+.titulo_aula.quebra {
+  white-space: normal;
+  overflow: visible;
+}
+
+/* Barra de status no topo do card (mesmo padrão da pílula "PROVA") */
+.pill_topo {
+  background-color: var(--prova);
+  padding: 7px 15px;
+  margin-bottom: 10px;
+  border-radius: 500px;
+  text-align: center;
+}
+
+.pill_verde { background-color: green; }
+.pill_vermelho { background-color: red; }
+
+.lables_vaga {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill_vaga {
+  background-color: var(--frequencia);
+  padding: 7px 15px;
+  margin: 0 10px 10px 0;
+  border-radius: 500px;
+}
+
+/* Botão azul (mesmo padrão do .tipo) */
+.btn_vaga {
+  padding: 5px 8px;
+  border: 2px solid #007bff;
+  border-radius: 500px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+  white-space: normal;
+  background-color: var(--frequencia);
+}
+
+.btn_vaga:hover,
+.btn_vaga.selected {
+  background-color: #28a745;
+}
+
+.btn_vaga.desativado {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Listas de filtro (Área e Modalidade) */
+.lista_opcoes {
+  border: 2px solid var(--frequencia);
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 5px;
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  color: var(--cor-text);
+}
+
+.opcao input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: var(--frequencia);
+}
+
+.linha_contagem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link_limpar {
+  color: var(--frequencia);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Detalhe da vaga */
+.lista_det {
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  color: var(--cor-text);
+  line-height: 1.5;
+  padding-left: 25px;
+  margin: 0 5px 10px 5px;
+}
+
+/* Formulário de candidatura */
+.campo {
+  display: block;
+  margin: 10px 5px 0 5px;
+}
+
+.campo > span {
+  font-family: "Arimo", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--cor-text);
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 7px 15px;
+  border: 2px solid var(--frequencia);
+  border-radius: 500px;
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  color: var(--cor-text);
+}
+
+.arquivo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 5px 0;
+  padding: 7px 15px;
+  border: 2px solid var(--frequencia);
+  border-radius: 500px;
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  color: var(--cor-text);
+}
+
+.arquivo span:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.arquivo .material-symbols-outlined {
+  cursor: pointer;
+}
+
+.msg_cand {
+  white-space: pre-line;
+}
+
+/* Confirmação do envio: barra fixa na parte de baixo da tela */
+.barra_inferior {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: white;
+  padding: 15px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.barra_topo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.barra_inferior .titulo_aula {
+  white-space: normal;
+  padding: 0;
+}
+
+.barra_inferior p {
+  margin: 5px 0 0 0;
+}
+
+.icone_sucesso {
+  font-size: 40px;
+  color: green;
+}
+
+/* Espaço para a barra fixa não cobrir o conteúdo */
+#tela_candidatura.com_barra_inferior {
+  padding-bottom: 240px;
+}
+
+/* Formulário depois do envio */
+.travado .arquivo .material-symbols-outlined {
+  display: none;
+}
+
+.travado .tipo_res,
+.travado .btn_vaga {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Card do Mercado de Trabalho na tela inicial: só com fontes maiores */
+.mercado_card .titulo_aula {
+  font-size: 18px;
+}
+
+.mercado_card p {
+  font-size: 14px;
+}
+
+.mercado_card .btn_vaga {
+  font-size: 13px;
+}
